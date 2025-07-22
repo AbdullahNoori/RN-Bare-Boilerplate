@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
 - **Components**: kebab-case (e.g., `user-profile`)
 - **Functions**: `camelCase` (e.g., `handleSubmit`)
 - **Constants**: `UPPER_SNAKE_CASE` (e.g., `API_BASE_URL`)
-- **Styles**: Use StyleSheet and camelCase keys
+- **Styles**: Use UniStyles StyleSheet and camelCase keys
 
 ### Import Organization
 
@@ -303,7 +303,7 @@ const [userData, setUserData] = useState<User | null>(null);
 
 - After adding/updating native dependencies, run:
   ```bash
-  cd ios && pod install && cd ..
+  npx pod-install ios
   ```
 
 ---
@@ -338,7 +338,7 @@ const [userData, setUserData] = useState<User | null>(null);
 
 ### Debugging
 
-- Use React Native Debugger or Flipper for debugging.
+- Use Reactotron or React Native Debugger for debugging.
 - Use console logging and error boundaries.
 
 ---
