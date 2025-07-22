@@ -1,8 +1,50 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# LintedRNApp
+
+This React Native project comes pre-configured with powerful development tools:
+
+## 🛠️ Development Tools Included
+
+### ESLint & Prettier
+
+- **Automatic code formatting** on save
+- **Unused imports removal** - keeps your code clean
+- **Auto-sort imports** - alphabetical organization
+- **Git hooks** - format code before commits
+- **Security rules** - catches potential security issues
+
+### Reactotron Debugging
+
+- **Real-time app inspection**
+- **Network request monitoring**
+- **State management debugging**
+- **Performance benchmarking**
+
+## 📝 Available Scripts
+
+```bash
+npm run lint          # Check for linting errors
+npm run lint:fix      # Fix linting errors automatically
+npm run format        # Format all files with Prettier
+npm run lint-and-format # Run both linting and formatting
+npm run check-all     # Lint, format check, and run tests
+```
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+
+## Reactotron Setup
+
+1. Install Reactotron desktop app:
+
+   ```bash
+   brew install --cask reactotron
+   ```
+
+2. Start Reactotron before running your app
+3. See `REACTOTRON.md` for detailed usage instructions
 
 ## Step 1: Start Metro
 
