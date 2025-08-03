@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+lib/
+coverage/
+
+# React Native
+ios/build/
+android/app/build/
+android/app/src/main/assets/
+android/app/src/main/res/
+
+# OS generated files
+.DS_Store
+*.log
+
+# Package lock files
+package-lock.json
+yarn.lock
